@@ -1,5 +1,14 @@
 /**************** extend css start ****************/
 @import url("https://fonts.googleapis.com/css?family=Aclonica|Poppins:300,400,500,600&display=swap");
+
+/* line 8, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
+.main_menu .main-menu-item .nav-item a:before {
+  background-image: -webkit-gradient(linear, right top, left top, from(#c6019a), to(#ff0000));
+  background-image: -webkit-linear-gradient(right, #c6019a 0%, #ff0000 100%);
+  background-image: -o-linear-gradient(right, #c6019a 0%, #ff0000 100%);
+  background-image: linear-gradient(to left, #c6019a 0%, #ff0000 100%);
+}
+
 /**************** common css start ****************/
 /* line 3, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_common.scss */
 body {
@@ -2153,7 +2162,8 @@ ul {
   top: 0;
   width: 100%;
   z-index: 999;
-  background-color: #8800b0;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(121,9,99,1) 100%);
 }
 
 .top {
@@ -2168,7 +2178,8 @@ ul {
   position: fixed;
   border: none;
   outline: none;
-  background-color: #8800b0;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(121,9,99,1) 100%);
   color: white;
   border-radius: 25px;
   padding: 5px;
@@ -2204,7 +2215,11 @@ ul {
 
 /* line 29, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link:hover {
-  color: #fff;
+  color: #00d4ff;
+}
+
+.main_menu .main-menu-item .nav-item a {
+  color: #00d4ff;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -2212,6 +2227,24 @@ ul {
   .main_menu .main-menu-item ul li .nav-link {
     padding: 35px 20px;
   }
+}
+
+/* line 39, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+.main_menu .main-menu-item .nav-item a {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 42, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
+.main_menu .main-menu-item .nav-item a:before {
+  position: absolute;
+  left: 16%;
+  top: 49px;
+  width: 0%;
+  height: 2px;
+  content: "";
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 /* line 62, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
@@ -2338,7 +2371,8 @@ ul {
   width: 100%;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
   top: 0;
-  background-color: #8800b0;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(121,9,99,1) 100%);
 }
 
 /* line 179, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
