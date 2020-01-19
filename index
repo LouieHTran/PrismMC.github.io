@@ -4,8 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>PrismMC</title>
-  <!-- Favicon --> <!-- Create Favicon for website -->
-  <link rel="icon" href="img/favicon.png">
+  <!-- Favicon --> <!-- Get a better fucking favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Animate CSS -->
@@ -46,7 +49,7 @@
               <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="https://prismmc.net">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="https://forums.prismmc.net">Forums</a>
@@ -107,7 +110,7 @@
                             <li>1 Vote Keys</li>
                             <li>Commands:<br>/hat
                         </ul>
-                        <a href="#" class="btn_2">Choose Plane</a> <!-- change names for 'Choose Plane' -->
+                        <a href="https://store.prismmc.net" class="btn_2">Choose Plan</a> <!-- change names for 'Choose Plane' -->
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -121,7 +124,7 @@
                             <li>2 Vote Keys</li>
                             <li>Commands:<br>/craft<br>/hat
                         </ul>
-                        <a href="#" class="btn_2">Choose Plane</a>
+                        <a href="https://store.prismmc.net" class="btn_2">Choose Plan</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -135,7 +138,7 @@
                           <li>3 Vote Keys</li>
                           <li>Commands:<br>/craft<br>/hat<br>/fixarmor<br>/bottle</li>
                         </ul>
-                        <a href="#" class="btn_2">Choose Plane</a>
+                        <a href="https://store.prismmc.net" class="btn_2">Choose Plan</a>
                     </div>
                 </div>
             </div>
